@@ -1,3 +1,58 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            33:5c:5b:af:18:ec:e3:d9:e2:73:bf:d5:21:c7:38:e9
+        Signature Algorithm: SM2-with-SM3
+        Issuer: C = CN, O = \E6\B2\83\E9\80\9A\E7\94\B5\E5\AD\90\E8\AE\A4\E8\AF\81\E6\9C\8D\E5\8A\A1\E6\9C\89\E9\99\90\E5\85\AC\E5\8F\B8, CN = \E5\9B\BD\E5\AF\86SM2\E6\9C\8D\E5\8A\A1\E5\99\A8\E6\A0\B9\E8\AF\81\E4\B9\A6V3
+        Validity
+            Not Before: Apr  2 09:49:39 2021 GMT
+            Not After : Apr  2 09:49:39 2022 GMT
+        Subject: C = CN, ST = \E5\B9\BF\E4\B8\9C\E7\9C\81, L = \E6\B7\B1\E5\9C\B3\E5\B8\82, O = \E6\B2\83\E9\80\9A\E7\94\B5\E5\AD\90\E8\AE\A4\E8\AF\81\E6\9C\8D\E5\8A\A1\E6\9C\89\E9\99\90\E5\85\AC\E5\8F\B8, OU = \E6\B2\83\E9\80\9A\E7\94\B5\E5\AD\90\E8\AE\A4\E8\AF\81\E6\9C\8D\E5\8A\A1\E6\9C\89\E9\99\90\E5\85\AC\E5\8F\B8, CN = sm2only.ovssl.cn
+        Subject Public Key Info:
+            Public Key Algorithm: id-ecPublicKey
+                Public-Key: (256 bit)
+                pub:
+                    04:00:db:d4:8d:1e:28:f5:a6:57:87:7c:47:af:4f:
+                    1e:83:ce:6c:1c:14:07:5c:80:e4:73:67:e0:7d:83:
+                    a5:3a:c8:4c:f6:87:c6:29:cd:ee:aa:36:2f:84:7d:
+                    ae:dd:42:4b:d0:db:16:c1:e1:4c:8e:22:7a:0d:79:
+                    21:55:41:39:da
+                ASN1 OID: SM2
+        X509v3 extensions:
+            X509v3 Key Usage: critical
+                Key Encipherment
+            X509v3 Extended Key Usage: 
+                TLS Web Server Authentication, TLS Web Client Authentication
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            X509v3 Subject Key Identifier: 
+                56:2E:98:95:71:69:27:11:9C:BA:6E:6A:E0:5E:53:9D:71:81:59:E5
+            X509v3 Authority Key Identifier: 
+                keyid:8E:86:68:B9:2C:D8:AE:CB:20:26:F6:5F:B6:3B:5A:5E:EA:9B:99:66
+
+            Authority Information Access: 
+                OCSP - URI:http://ocsp.wotrus.com
+                CA Issuers - URI:http://aia.wotrus.com/ws-sm2-ssl3.cer
+
+            X509v3 CRL Distribution Points: 
+
+                Full Name:
+                  URI:http://crl.wotrus.com/ws-sm2-ssl3.crl
+
+            X509v3 Subject Alternative Name: 
+                DNS:sm2only.ovssl.cn
+            X509v3 Certificate Policies: 
+                Policy: 2.23.140.1.2.2
+                Policy: 1.2.156.150570.13
+                Policy: 1.2.156.150570.3.1.3
+                  CPS: http://www.wotrus.com/policy/
+
+    Signature Algorithm: SM2-with-SM3
+         30:44:02:20:10:26:44:a3:a0:c6:3f:3a:6c:44:cb:9a:26:06:
+         d7:9e:88:a3:d0:9c:46:2b:d5:e7:46:df:20:87:6f:a7:8d:35:
+         02:20:4e:48:19:60:6f:05:8e:53:04:30:10:fc:ef:d7:a8:e8:
+         65:0f:9d:d5:fb:49:20:8f:15:9b:4a:f0:55:01:21:a2
 -----BEGIN CERTIFICATE-----
 MIIDpjCCA02gAwIBAgIQM1xbrxjs49nic7/VIcc46TAKBggqgRzPVQGDdTBkMQsw
 CQYDVQQGEwJDTjEtMCsGA1UECgwk5rKD6YCa55S15a2Q6K6k6K+B5pyN5Yqh5pyJ

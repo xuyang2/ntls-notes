@@ -1,3 +1,51 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 82514097008 (0x1336393370)
+        Signature Algorithm: SM2-with-SM3
+        Issuer: C = CN, O = CFCA SM2 OCA1
+        Validity
+            Not Before: Jun 11 09:05:20 2021 GMT
+            Not After : Jun 19 08:16:56 2026 GMT
+        Subject: C = CN, ST = \E5\8C\97\E4\BA\AC, L = \E5\8C\97\E4\BA\AC, O = \E4\B8\AD\E5\9B\BD\E9\93\B6\E8\A1\8C\E8\82\A1\E4\BB\BD\E6\9C\89\E9\99\90\E5\85\AC\E5\8F\B8, OU = Local RA, OU = SSL, CN = ebssec.boc.cn
+        Subject Public Key Info:
+            Public Key Algorithm: id-ecPublicKey
+                Public-Key: (256 bit)
+                pub:
+                    04:fb:0d:52:7a:19:40:cf:42:4a:7b:c2:e7:b4:db:
+                    bd:d7:f2:39:30:ae:3c:e4:a5:66:63:c0:cb:10:4a:
+                    16:3f:98:d5:01:ff:c6:5b:9b:1d:d5:5f:e5:7a:87:
+                    ac:ed:63:08:34:62:ed:a3:79:20:a1:97:40:5d:78:
+                    f7:67:3c:d3:73
+                ASN1 OID: SM2
+        X509v3 extensions:
+            X509v3 Authority Key Identifier: 
+                keyid:5C:93:58:20:5A:24:73:56:10:1B:64:50:10:EC:E9:A7:CA:07:41:11
+
+            X509v3 Basic Constraints: critical
+                CA:FALSE
+            X509v3 Certificate Policies: 
+                Policy: 2.16.156.112554.1.1
+                  CPS: http://www.cfca.com.cn/us/us-14.htm
+
+            X509v3 CRL Distribution Points: 
+
+                Full Name:
+                  URI:http://crl.cfca.com.cn/SM2/crl5618.crl
+
+            X509v3 Subject Alternative Name: 
+                DNS:ebssec.boc.cn
+            X509v3 Key Usage: critical
+                Digital Signature, Non Repudiation
+            X509v3 Subject Key Identifier: 
+                9E:A8:16:8F:CE:AC:A8:03:84:71:4E:46:96:AA:D3:89:17:ED:3D:4A
+            X509v3 Extended Key Usage: 
+                TLS Web Client Authentication, TLS Web Server Authentication
+    Signature Algorithm: SM2-with-SM3
+         30:46:02:21:00:af:85:2b:db:bf:98:7a:11:19:75:61:c0:8b:
+         83:e7:f3:f5:49:5e:41:b6:8f:7c:16:30:52:35:03:d9:d0:07:
+         55:02:21:00:c4:42:e2:4f:52:fe:64:82:d1:4a:54:bc:2a:a1:
+         fc:34:02:d9:48:bc:4d:c7:1d:e4:6d:88:81:84:ac:72:75:0d
 -----BEGIN CERTIFICATE-----
 MIICzzCCAnKgAwIBAgIFEzY5M3AwDAYIKoEcz1UBg3UFADAlMQswCQYDVQQGEwJD
 TjEWMBQGA1UECgwNQ0ZDQSBTTTIgT0NBMTAeFw0yMTA2MTEwOTA1MjBaFw0yNjA2

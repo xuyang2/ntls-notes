@@ -1,3 +1,54 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            0b:82:eb:32:c6:cc:55:3c:17:29:a0:8a:80:e9:30:94
+        Signature Algorithm: SM2-with-SM3
+        Issuer: C = CN, O = \E6\B2\83\E9\80\9A\E7\94\B5\E5\AD\90\E8\AE\A4\E8\AF\81\E6\9C\8D\E5\8A\A1\E6\9C\89\E9\99\90\E5\85\AC\E5\8F\B8, CN = \E5\9B\BD\E5\AF\86SM2\E6\A0\B9\E8\AF\81\E4\B9\A6
+        Validity
+            Not Before: Apr  4 06:18:18 2019 GMT
+            Not After : Apr  4 06:18:18 2034 GMT
+        Subject: C = CN, O = \E6\B2\83\E9\80\9A\E7\94\B5\E5\AD\90\E8\AE\A4\E8\AF\81\E6\9C\8D\E5\8A\A1\E6\9C\89\E9\99\90\E5\85\AC\E5\8F\B8, CN = \E5\9B\BD\E5\AF\86SM2\E6\9C\8D\E5\8A\A1\E5\99\A8\E6\A0\B9\E8\AF\81\E4\B9\A6V3
+        Subject Public Key Info:
+            Public Key Algorithm: id-ecPublicKey
+                Public-Key: (256 bit)
+                pub:
+                    04:ef:a4:b6:c1:2d:b0:9f:35:5a:b2:8d:84:86:90:
+                    29:f4:02:eb:25:69:01:b1:c0:64:a6:e9:cc:10:1b:
+                    f0:24:0c:16:9d:61:bd:4b:06:9e:7d:7a:a7:8e:3d:
+                    44:06:26:72:49:89:d4:97:86:47:46:c5:b1:5c:28:
+                    1c:2f:07:4b:9f
+                ASN1 OID: SM2
+        X509v3 extensions:
+            X509v3 Authority Key Identifier: 
+                keyid:31:B8:15:87:4C:CC:37:97:3A:ED:EF:4D:91:4A:2B:AD:0B:35:76:20
+
+            X509v3 Subject Key Identifier: 
+                8E:86:68:B9:2C:D8:AE:CB:20:26:F6:5F:B6:3B:5A:5E:EA:9B:99:66
+            X509v3 CRL Distribution Points: 
+
+                Full Name:
+                  URI:http://crl.wotrus.com/wotrus-sm2.crl
+
+            Authority Information Access: 
+                OCSP - URI:http://ocsp.wotrus.com
+                CA Issuers - URI:http://aia.wotrus.com/wotrus-sm2.cer
+
+            X509v3 Certificate Policies: 
+                Policy: 1.2.156.150570.3.1
+                  CPS: http://www.wotrus.com/policy/
+
+            X509v3 Basic Constraints: critical
+                CA:TRUE, pathlen:0
+            X509v3 Key Usage: critical
+                Certificate Sign, CRL Sign
+            X509v3 Extended Key Usage: 
+                TLS Web Server Authentication, TLS Web Client Authentication
+    Signature Algorithm: SM2-with-SM3
+         30:46:02:21:00:bf:0c:63:c0:3d:07:80:46:cf:fe:4f:1b:cc:
+         7d:33:62:4c:58:e0:bc:a5:76:d5:da:f0:cd:dc:7b:02:2a:9d:
+         58:02:21:00:8e:18:68:64:a8:a9:d5:5c:94:e2:18:33:31:af:
+         6c:bf:76:a4:8e:21:85:2f:39:05:24:62:d1:76:58:42:bc:ee
 -----BEGIN CERTIFICATE-----
 MIIDJjCCAsugAwIBAgIQC4LrMsbMVTwXKaCKgOkwlDAKBggqgRzPVQGDdTBZMQsw
 CQYDVQQGEwJDTjEtMCsGA1UECgwk5rKD6YCa55S15a2Q6K6k6K+B5pyN5Yqh5pyJ
