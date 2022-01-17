@@ -78,3 +78,10 @@
 - [SOFAStack](https://www.sofastack.tech)
   - [RFC8998+BabaSSL---让国密驶向更远的星辰大海](https://www.sofastack.tech/blog/rfc8998-babassllet-guomi-sail-to-a-farther-starry-sea/)
   - [Tengine + BabaSSL ，让国密更易用](https://www.sofastack.tech/tengine-babassl-making-state-secrets-easier-to-use/)
+
+- [中国金融认证中心（CFCA）]
+  - [CFCA数字证书下载平台](https://cs.cfca.com.cn/)
+  - [普通SM2服务器测试证书下载地址](https://cs.cfca.com.cn/cgi-bin/compoundCertDownload/v_input.do)
+  - [Certification Practice Statement Of CFCA Global-Trust System](https://www.cfca.com.cn/upload/CertificationPracticeStatementOfCFCAGlobal-TrustSystem20210811ENG.pdf)
+  - [测试证书下载地址](http://cstest.cfca.com.cn)
+  - [CFCA数字证书证书申请制作流程](https://www.cnblogs.com/wangqinyou/p/10696856.html)
