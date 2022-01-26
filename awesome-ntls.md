@@ -31,3 +31,4 @@
 <a name="lang-rust"></a>
 ### Rust
 - [citahub/libsm](https://github.com/citahub/libsm) - A Rust Library of China's Standards of Encryption Algorithms (SM2/3/4)
+- [nfjBill/rust-gmsm](https://github.com/nfjBill/rust-gmsm) -  A Rust Library of China's Standards of Encryption Algorithms (SM2/3/4)
